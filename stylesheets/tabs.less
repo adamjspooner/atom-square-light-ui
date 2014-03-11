@@ -1,7 +1,6 @@
 @import "ui-variables";
 @tab-radius: 3px;
 @modified-icon-width: 8px;
-@tab-skew: 30deg;
 @tab-top-padding: 5px;
 @tab-bottom-border-height: 5px;
 @tab-border: 1px solid @tab-border-color;
@@ -35,7 +34,6 @@
     border-top-right-radius: @tab-radius;
     border-right: @tab-border;
     box-shadow: inset -1px -1px 1px rgba(0,0,0, .05);
-    -webkit-transform: skewX(@tab-skew);
     transition: color .1s ease-in;
 
     &, &:before {
@@ -53,23 +51,18 @@
       border-top-left-radius: @tab-radius;
       border-left: @tab-border;
       box-shadow: inset 1px -1px 1px rgba(0,0,0, .05);
-      -webkit-transform: skewX(133deg);
     }
 
     .close-icon {
+      color: #888;
       z-index: 3;
       line-height: @tab-height;
-      -webkit-transform: skewX(-@tab-skew);
     }
     &.modified:not(:hover) .close-icon {
       top: @tab-height/2 - @modified-icon-width/2 + 1px;
       right: 14px;
       width: @modified-icon-width;
       height: @modified-icon-width;
-    }
-
-    .title{
-      -webkit-transform: skewX(-@tab-skew);
     }
   }
 
