@@ -3,7 +3,7 @@
   "theme": "ui",
   "version": "0.1.0",
   "description": "Squared off tab version of atom-light-ui",
-  "repository": "https://github.com/atom/atom-light-ui.git",
+  "repository": "https://github.com/bobbywilson0/atom-square-light-ui.git",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
