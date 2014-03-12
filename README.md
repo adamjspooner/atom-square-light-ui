@@ -1,9 +1,6 @@
-# Atom Light UI theme
+# Atom Square Light UI theme
 
-Default light UI theme for Atom.
+This is a fork of the Default light UI theme for Atom, with the addition of
+square tabs.
 
-This theme is installed by default with Atom and can be activated by going to
-the _Themes_ section in the Settings view (`cmd-,`) and selecting it from the
-_UI Themes_ drop-down menu.
-
-![](https://f.cloud.github.com/assets/671378/2265022/bb148a20-9e7a-11e3-81c8-bf5965d48183.png)
+![](https://www.dropbox.com/s/ih14j0r5tbi24z8/Screenshot%202014-03-11%2020.28.16.png)
